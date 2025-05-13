@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         and other conventions. No need to manually include <head>, <meta charSet>, <title>, etc. here.
         Next.js handles UTF-8 encoding by default.
       */}
-      <body className="antialiased"> {/* 'antialiased' for font smoothing, VT323 font is applied via globals.css */}
+      <body className="antialiased" suppressHydrationWarning={true}> {/* 'antialiased' for font smoothing, VT323 font is applied via globals.css */}
         {children}
       </body>
     </html>
