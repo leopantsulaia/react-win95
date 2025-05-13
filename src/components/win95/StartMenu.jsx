@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { SettingsIcon, FolderIcon, RightArrowIcon } from './PixelIcons'; // Assuming a generic power/shutdown icon
+import { SettingsIcon, FolderIcon, RightArrowIcon, WindowsLogoIcon } from './PixelIcons'; // Assuming a generic power/shutdown icon
 
 const MenuItem = ({ icon, text, onClick, hasSubmenu, disabled }) => (
   <button
