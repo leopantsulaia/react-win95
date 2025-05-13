@@ -2,7 +2,7 @@
 import './globals.css'; // Imports global styles, including VT323 font via @import.
 
 export const metadata = {
-  title: 'RetroReact OS',
+  title: 'Leo"s-Win95',
   description: 'A Windows 95 style UI in React',
   viewport: 'width=device-width, initial-scale=1', // Added viewport to metadata
 };

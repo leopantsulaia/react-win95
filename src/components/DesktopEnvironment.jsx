@@ -12,7 +12,7 @@ export default function DesktopEnvironment() {
     { 
       id: ++windowIdCounter, 
       title: 'My Computer', 
-      content: <div className="p-2">Contents of My Computer... Work in progress! <br/><br/> <img src="https://picsum.photos/200/100" data-ai-hint="retro computer" alt="placeholder"/></div>,
+      content: <div className="p-2">Well it's "MY COMPUTER". To really display the computer icon and everything here, like why should I do it for free? and then you go there and see the files? it's simple right? the huge part is just a design. <br/><br/> <img src="https://picsum.photos/200/100" data-ai-hint="retro computer" alt="placeholder"/></div>,
       isOpen: true, 
       isMinimized: false,
       isMaximized: false,
@@ -24,14 +24,26 @@ export default function DesktopEnvironment() {
     { 
       id: ++windowIdCounter, 
       title: 'Notepad', 
-      content: <textarea className="w-full h-full border-none outline-none resize-none p-1 font-mono text-xs" defaultValue="Hello, Retro World! Type something here..."></textarea>,
+      content: <textarea className="w-full h-full border-none outline-none resize-none p-1 font-mono text-xs" defaultValue="Hello, Leo's World! Type something here..."></textarea>,
       isOpen: true, 
       isMinimized: false,
       isMaximized: false,
       isActive: false,
       zIndex: 1,
-      position: { x: 150, y: 150 },
+      position: { x: 250, y: 150 },
       size: { width: 400, height: 300 }
+    },
+     { 
+      id: ++windowIdCounter, 
+      title: 'Phylosophy.txt', 
+      content: <textarea className="w-full h-full border-none outline-none resize-none p-1 font-mono text-xs" defaultValue="Go to hell, this is God's engineering, and he never even finished university!!! ..."></textarea>,
+      isOpen: true, 
+      isMinimized: false,
+      isMaximized: false,
+      isActive: false,
+      zIndex: 0,
+      position: { x: 450, y: 300 },
+      size: { width: 300, height: 200 }
     }
   ]);
   const [isStartMenuOpen, setIsStartMenuOpen] = useState(false);
